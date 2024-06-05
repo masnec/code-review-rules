@@ -1,0 +1,9 @@
+preview_settings:
+  language: python
+
+default:
+  enabled: true
+  rules:
+    - If there are any bugs, highlight them.
+    - must provide unit test. if the original diff doesn't contain unit test, provide a sample.
+    - if any functions related to User Data are added, remind the author to add API doc to team's shared folder.
